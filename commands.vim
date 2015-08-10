@@ -15,3 +15,11 @@ command! Q q
 " Restart Pow.cx for the Current App
 command! PowRestart :SilentCmd touch tmp/restart.txt; touch tmp/.livereload.rb
 command! Deploy :call VimuxRunCommand("mina deploy")
+
+" Nerdtree shotcut
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+map <C-u> :NERDTreeToggle<CR>
+
+" CtrlP shortcut
+map <C-p> :CtrlP<CR>
