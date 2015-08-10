@@ -167,6 +167,11 @@ This example installs [`vim-move`](https://github.com/matze/vim-move).
 | 1 ★ |[tomdoc.vim](https://github.com/mutewinter/tomdoc.vim)|A simple syntax add-on for vim that highlights your TomDoc comments. |
 | 0 ★ |[vim-autoreadwatch](https://github.com/mutewinter/vim-autoreadwatch)|A forked script for vim auto reloading of buffers when changed on disk. |
 | 0 ★ |[vim-tmux](https://github.com/mutewinter/vim-tmux)|http://tmux.svn.sourceforge.net/viewvc/tmux/trunk/examples/tmux.vim?view=log |
+| 137 ★ |[vim-rubocop](https://github.com/ngmy/vim-rubocop)|The Vim RuboCop plugin runs RuboCop and displays the results in Vim. |
+
+## Shortcuts
+* Ctrl+p: Open fuzzy finder
+* Ctrl+n: Toggle NerdTree
 
 _That's 82 plugins, holy crap._
 
