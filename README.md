@@ -9,7 +9,7 @@ Version 3! Now each plugin is included and managed in its
 
 ## Installation
 
-1. `git clone http://github.com/mutewinter/dot_vim.git ~/.vim`.
+1. `git clone http://github.com/pedrohenriquerls/dot_vim.git ~/.vim`.
 1. `cd ~/.vim`.
 
 Now you have a choice. The automated script or the manual process.
