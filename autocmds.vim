@@ -4,6 +4,10 @@
 
 if has("autocmd")
   augroup MyAutoCommands
+    " NerdTree autocommands
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
     " Clear the auto command group so we don't define it multiple times
     " Idea from http://learnvimscriptthehardway.stevelosh.com/chapters/14.html
     autocmd!
