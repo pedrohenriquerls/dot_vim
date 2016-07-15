@@ -1,0 +1,1 @@
+vundle_plugins/jellybeans.vim
