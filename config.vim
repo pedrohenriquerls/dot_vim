@@ -8,16 +8,13 @@
 set background=dark
 colorscheme jellybeans
 " Force 256 color mode if available
-if $TERM =~ "-256color"
-   set t_Co=256
-endif
+set t_Co=256
 
 " -----------------------------
 " File Locations
 " -----------------------------
 set backupdir=~/.vim/.backup// " Double // causes backups to use full file path
 set directory=~/.vim/.tmp//
-set spellfile=~/.vim/spell/custom.en.utf-8.add
 " Persistent Undo
 if has('persistent_undo')
   set undofile
@@ -129,6 +126,9 @@ set t_vb=
 " ---------------
 set mousehide  " Hide mouse after chars typed
 set mouse=a    " Mouse in all modes
+
+"Copy working properly"
+vmap '' :w !pbcopy<CR><CR>
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
