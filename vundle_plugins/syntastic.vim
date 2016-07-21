@@ -8,6 +8,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_loc_list_height = 5
 let g:syntastic_html_checkers = ['handlebars']
 let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_ruby_checkers = ['reek']
 
 " Hat tip http://git.io/SPIBfg
 let g:syntastic_error_symbol = '✗'

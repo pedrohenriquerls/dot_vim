@@ -3,4 +3,4 @@ if exists('g:vundle_installing_plugins')
   finish
 endif
 
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'jellybeans'

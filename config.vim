@@ -1,7 +1,7 @@
 " ---------------------------------------------
 " Regular Vim Configuration (No Plugins Needed)
 " ---------------------------------------------
-
+set rtp+=/home/pedrohenriquerls/.local/lib/python2.7/site-packages/powerline/bindings/vim
 " ---------------
 " Color
 " ---------------
