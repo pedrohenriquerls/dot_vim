@@ -30,6 +30,6 @@ if executable('ag')
 endif
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir': '\.git$\|gems$\|\public$\|\tmp$',
+  \ 'dir': '\.git$\|gems$\|\public$\|\tmp$\|\vendor$\',
   \ 'file': '\.log$\|\.tmp$'
   \ }
