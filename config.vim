@@ -5,8 +5,8 @@
 " ---------------
 " Color
 " ---------------
-" set background=dark
-" colorscheme jellybeans
+set background=dark
+colorscheme jellybeans
 " Force 256 color mode if available
 set t_Co=256
 set guifont=Monaco:h18
