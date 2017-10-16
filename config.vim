@@ -5,7 +5,7 @@
 " ---------------
 " Color
 " ---------------
-set background=dark
+set background="#222D32"
 colorscheme jellybeans
 " Force 256 color mode if available
 set t_Co=256
